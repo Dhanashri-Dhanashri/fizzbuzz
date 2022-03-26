@@ -8,17 +8,17 @@ use Test::Harness;
 
 sub run_tests {
   print "\nRunning tests\n";
-  is(fizzbuzz(1), 1, 'speak number by 1');
-  is(fizzbuzz(2), 2, 'speak number by 2');
+  is(fizzbuzz(1), 1, 'number by 1');
+  is(fizzbuzz(2), 2, 'number by 2');
 
-  is(fizzbuzz(3), 'Fizz', 'speak Fizz by 3');
-  is(fizzbuzz(6), 'Fizz', 'speak Fizz by 6');
+  is(fizzbuzz(3), 'Fizz', 'Fizz by 3');
+  is(fizzbuzz(6), 'Fizz', 'Fizz by 6');
 
-  is(fizzbuzz(5), 'Buzz', 'speak Buzz by 5');
-  is(fizzbuzz(10), 'Buzz', 'speak Buzz by 10');
+  is(fizzbuzz(5), 'Buzz', 'Buzz by 5');
+  is(fizzbuzz(10), 'Buzz', 'Buzz by 10');
 
-  is(fizzbuzz(15), 'FizzBuzz', 'speak FizzBuzz by 15');
-  is(fizzbuzz(30), 'FizzBuzz', 'speak FizzBuzz by 30');
+  is(fizzbuzz(15), 'FizzBuzz', 'FizzBuzz by 15');
+  is(fizzbuzz(30), 'FizzBuzz', 'FizzBuzz by 30');
     
   done_testing(8);
 
