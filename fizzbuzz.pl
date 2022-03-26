@@ -43,5 +43,3 @@ sub fizzbuzz {
 }
 main;
 run_tests if $ENV{HARNESS_ACTIVE};
-
-1;
