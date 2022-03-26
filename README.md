@@ -35,20 +35,20 @@ FizzBuzz Output
 
 Running tests
   
-ok 1 - speak number by 1
+ok 1 - number by 1
   
-ok 2 - speak number by 2
+ok 2 - number by 2
   
-ok 3 - speak Fizz by 3
+ok 3 - Fizz by 3
   
-ok 4 - speak Fizz by 6
+ok 4 - Fizz by 6
   
-ok 5 - speak Buzz by 5
+ok 5 - Buzz by 5
   
-ok 6 - speak Buzz by 10
+ok 6 - Buzz by 10
   
-ok 7 - speak FizzBuzz by 15
+ok 7 - FizzBuzz by 15
   
-ok 8 - speak FizzBuzz by 30
+ok 8 - FizzBuzz by 30
   
 1..8
